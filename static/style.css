@@ -1,0 +1,42 @@
+body {
+    background-color: #000022;
+    color: #DDDBF1;
+}
+/* 000022 232C33*/
+#header {
+    background-color: #001242;
+    padding: 10px 10px 55px 10px;
+    border-radius: 24px;
+}
+
+#header_buttons a {
+    float: left;
+    color: #DDDBF1;
+    background-color: #040F16;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 36px;
+    margin-left: 5px;
+    padding: 12px;
+}
+
+#content {
+    clear: both;
+    padding: 5px 10px;
+}
+
+.section_title {
+    text-align: center;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.section_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_block {
+    max-width: 800px;
+}
