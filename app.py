@@ -9,3 +9,11 @@ def home_page():
 @app.route("/about.html")
 def about_page():
     return render_template("about.html")
+
+@app.route("/chat.html")
+def chat_page():
+    return render_template("chat.html")
+
+@app.route("/login.html")
+def login_page():
+    return render_template("login.html")
