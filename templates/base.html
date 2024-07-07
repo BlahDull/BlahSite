@@ -15,7 +15,11 @@
                 <a href="/">Home</a>
                 <a href="chat.html">Chat</a>
                 <a href="about.html">About</a>
-                <!-- <a href="login.html" style="float:right">Login</a> -->
+                {% if logged_in %}
+                <a href="logout" style="float:right">Log Out</a>
+                {% else %}
+                <a href="login.html" style="float:right">Login</a>
+                {% endif %}
             </div>
         </div>
         <div id="content">

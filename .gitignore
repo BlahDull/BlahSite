@@ -1,3 +1,5 @@
 .venv
 *pycache*
 messages.txt
+misc/
+users.db
